@@ -37,8 +37,5 @@
         $config['access_token']=$access_token[0];
         $_SESSION['config'] = $config;
         
-        
-        header("Location:api.php");     
-        
 
 ?>
