@@ -9,7 +9,7 @@
 
 	$url = 'https://getpocket.com/v3/oauth/authorize';
 	$data = array(
-		'consumer_key' => $config['consumer_key'], 
+		'consumer_key' => $config['consumer_key'],
 		'code' => $request_token
 	);
 	$options = array(
@@ -22,7 +22,7 @@
 	$context  = stream_context_create($options);
 	$result = file_get_contents($url, false, $context);
 	// our $result contains our access token
-	
+
 	$access_token = explode('&',$result);
 	if($access_token[0]!=''){
 		echo "<h1>You've been authenticated succesfully!</h1>";
@@ -33,9 +33,9 @@
 	} else{
 		echo "Something went wrong. :( ";
 	}
-        
+
         $config['access_token']=$access_token[0];
         $_SESSION['config'] = $config;
-        
+
 
 ?>
