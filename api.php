@@ -15,7 +15,10 @@
       json_encode($data)
     );
 
+	if(isset($response->body->list))
    	$pocket_links = $response->body->list;
+   	else
+   	$pocket_links = array();
 
 ?>
 
