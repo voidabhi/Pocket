@@ -2,7 +2,7 @@
     session_start();
 	$request_token = $_GET['request_token'];
 
-	/*$url = 'https://getpocket.com/v3/oauth/authorize';
+	$url = 'https://getpocket.com/v3/oauth/authorize';
 	$data = array(
 		'consumer_key' => $config['consumer_key'],
 		'code' => $request_token
@@ -15,11 +15,11 @@
 		)
 	);*/
 
-    /*$response = Unirest::post($url,
+    $response = Unirest::post($url,
             array("Content-Type" => "application/json; charset=UTF-8",
                "X-Accept" => "application/json"),
       json_encode($data)
-    );*/
+    );
 
     print_r($request_token);
 
