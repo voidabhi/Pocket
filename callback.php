@@ -21,13 +21,15 @@
       json_encode($data)
     );
 
+    print_r($response->body);
+
 /*	$context  = stream_context_create($options);
 	$result = file_get_contents($url, false, $context);
 	// our $result contains our access token
 
 	$access_token = explode('&',$result);*/
 
-	print_r($response->body);
+
 	/*if($access_token[0]!=''){
         $config['access_token']=$access_token[0];
         $_SESSION['config'] = $config;
