@@ -32,7 +32,7 @@
 		<ul>
 		<?
         foreach($pocket_links as $link){
-			print_r("<li>".$link->given_url."</li>");
+			print_r("<li><a href=".$link->given_url.">".$link->given_title."</a></li>");
 		}
 		?>
 		</ul>
