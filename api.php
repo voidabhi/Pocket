@@ -2,11 +2,10 @@
 	session_start();
 
         $config = $_SESSION['config'];
-       print_r($config['access_token']);
-/*	$url = 'http://getpocket.com/v3/get?count=5';
+	$url = 'http://getpocket.com/v3/get?count=5';
 	$data = array(
 		'consumer_key' => $config['consumer_key'],
-		'access_token' => $access_token
+		'access_token' => $config['access_token']
 	);
 
     $response = Unirest::post($url,
@@ -14,8 +13,8 @@
                "X-Accept" => "application/json"),
       json_encode($data)
     );
-
-        $pocket_links = $response->body->list;*/
+	print_r($response->body);
+        //$pocket_links = $response->body->list;
 ?>
 
 <?/*<html>
