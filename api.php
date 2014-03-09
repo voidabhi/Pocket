@@ -21,7 +21,7 @@
    	$pocket_links = array();
 
    	if(isset($_SESSION['username']))
-   		$username = $_SESSION['username'];
+   		$username = $_SESSION['username']."'s";
    	else
    		$username = "your";
 
