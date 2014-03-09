@@ -19,7 +19,7 @@
 
 	$result  = $response->body;
 
-	print_r(isset($result["access_token"]));
+	print_r(isset($result));
 
 	/*if(isset($result["access_token"])){
         $config['access_token']=$result["access_token"];
