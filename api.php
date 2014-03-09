@@ -21,5 +21,7 @@
       json_encode($data)
     );
         $pocket_links = $response->body->list;
-		print_r($pocket_links);
+        foreach($pocket_links as $link){
+			print_r($link);
+		}
 ?>
