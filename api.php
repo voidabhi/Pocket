@@ -22,6 +22,6 @@
     );
         $pocket_links = $response->body->list;
         foreach($pocket_links as $link){
-			print_r($link);
+			print_r($link->given_url);
 		}
 ?>
