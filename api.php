@@ -21,9 +21,6 @@
       json_encode($data)
     );
         $pocket_links = $response->body->list;
-        foreach($pocket_links as $link){
-			print_r($link->given_url);
-		}
 ?>
 
 <html>
@@ -33,9 +30,11 @@
 	</head>
 	<body>
 		<ul>
+		<?
         foreach($pocket_links as $link){
 			print_r("<li>".$link->given_url."</li>");
 		}
+		?>
 		</ul>
 	</body>
 </html>
