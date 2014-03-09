@@ -1,5 +1,5 @@
 <?php
-	require_once('config.php');
+	//require_once('config.php');
 	/* read the docs!
 		by default, I'm just returning the 5 most recent
 		pocket items.
@@ -7,10 +7,10 @@
 	 */
         $config = $_SESSION['config'];
 	/*$url = 'http://getpocket.com/v3/get?count=5';
-	/*$data = array(
+	$data = array(
 		'consumer_key' => $config['consumer_key'],
 		'access_token' => $config['access_token']
-	);*/
+	);
 	$options = array(
 		'http' => array(
 			'method'  => 'POST',
