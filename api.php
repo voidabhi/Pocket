@@ -6,7 +6,7 @@
 	$url = 'http://getpocket.com/v3/get?count=5';
 	$data = array(
 		'consumer_key' => $config['consumer_key'],
-		'access_token' => $access_token[1]
+		'access_token' => $access_token
 	);
 
     $response = Unirest::post($url,
