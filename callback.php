@@ -21,7 +21,7 @@
       json_encode($data)
     );
 
-    print_r($response);
+    print_r($request_token);
 
 /*	$context  = stream_context_create($options);
 	$result = file_get_contents($url, false, $context);
