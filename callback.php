@@ -1,6 +1,7 @@
 <?php
     session_start();
    	require_once "lib/Unirest.php";
+   	require_once "config.php"
 	$request_token = $_GET['request_token'];
 
 	$url = 'https://getpocket.com/v3/oauth/authorize';
@@ -8,13 +9,6 @@
 		'consumer_key' => $config['consumer_key'],
 		'code' => $request_token
 	);
-	/*$options = array(
-		'http' => array(
-			'method'  => 'POST',
-                        'header' => "Content-Type: application/x-www-form-urlencoded\r\n",
-			'content' => http_build_query($data)
-		)
-	);*/
 
     $response = Unirest::post($url,
             array("Content-Type" => "application/json; charset=UTF-8",
