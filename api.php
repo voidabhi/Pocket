@@ -8,12 +8,12 @@
 		'access_token' => $config['access_token']
 	);
 
-    $response = Unirest::post($url,
+  /*  $response = Unirest::post($url,
             array("Content-Type" => "application/json; charset=UTF-8",
                "X-Accept" => "application/json"),
       json_encode($data)
-    );
-	print_r($response->body);
+    );*/
+	print_r(json_encode($data));
         //$pocket_links = $response->body->list;
 ?>
 
