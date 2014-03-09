@@ -20,6 +20,11 @@
    	else
    	$pocket_links = array();
 
+   	if(isset($_SESSION['username']))
+   		$username = $_SESSION['username'];
+   	else
+   		$username = "your";
+
 ?>
 
 <html>
@@ -30,7 +35,7 @@
 	<body>
 	<div class="container">
       <div class="page-header">
-        <h1>List of your pocket links</h1>
+        <h1>List of <?= $username?> pocket links</h1>
       </div>
 		<ul>
 		<?
