@@ -1,7 +1,8 @@
 <?php
     session_start();
    	require_once "lib/Unirest.php";
-   	require_once "config.php"
+   	require_once "config.php";
+
 	$request_token = $_GET['request_token'];
 
 	$url = 'https://getpocket.com/v3/oauth/authorize';
