@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require_once("lib/Unirest.php");
 
         $config = $_SESSION['config'];
 	$url = 'http://getpocket.com/v3/get?count=5';
@@ -8,12 +9,12 @@
 		'access_token' => $config['access_token']
 	);
 
-  /*  $response = Unirest::post($url,
+    $response = Unirest::post($url,
             array("Content-Type" => "application/json; charset=UTF-8",
                "X-Accept" => "application/json"),
       json_encode($data)
-    );*/
-	print_r(json_encode($data));
+    );
+	print_r($response->body);
         //$pocket_links = $response->body->list;
 ?>
 
