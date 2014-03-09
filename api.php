@@ -21,5 +21,5 @@
 	$context  = stream_context_create($options);
 	$result = file_get_contents($url, false, $context);
         print_r($result);*/
-        print_r($config['access_token']);
+        print_r($_SESSION);
 ?>
