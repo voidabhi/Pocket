@@ -19,5 +19,5 @@
                "X-Accept" => "application/json"),
       json_encode($data)
     );
-        print_r($response);
+        print_r( json_encode($data));
 ?>
