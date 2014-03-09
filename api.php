@@ -31,7 +31,7 @@
 	<body>
 	<div class="container">
       <div class="page-header">
-        <h1>List of pocket links</h1>
+        <h1>List of your pocket links</h1>
       </div>
 		<ul>
 		<?
