@@ -30,10 +30,8 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<ul>
-			<? foreach($pocket_links as $links){
+			<?php foreach($pocket_links as $links){
 					echo $links;
 			}?>
-		</ul>
 	</body>
 </html>
