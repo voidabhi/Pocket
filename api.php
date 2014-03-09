@@ -21,6 +21,9 @@
       json_encode($data)
     );
         $pocket_links = $response->body->list;
+		 foreach($pocket_links as $links){
+					echo $links;
+			}
 
 ?>
 
@@ -30,8 +33,5 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-			<?php foreach($pocket_links as $links){
-					echo $links;
-			}?>
 	</body>
 </html>
