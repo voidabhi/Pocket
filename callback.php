@@ -1,9 +1,5 @@
 <?php
         session_start();
-	require_once('config.php');
-	/* Now we have to convert our request token into an access token */
-	// we set up the callback_uri to include the request_token,
-	// so let's get that
 
 	$request_token = $_GET['request_token'];
 
