@@ -31,7 +31,9 @@
 	</head>
 	<body>
 		<ul>
-			<?=$pocket_links[0]?>
+			<? foreach($pocket_links as $links){
+					echo $links;
+			}?>
 		</ul>
 	</body>
 </html>
