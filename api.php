@@ -30,6 +30,8 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<ul>
+			<?=$pocket_links[0]?>
+		</ul>
 	</body>
 </html>
