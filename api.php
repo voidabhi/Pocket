@@ -1,5 +1,6 @@
 <?php
 	//require_once('config.php');
+	session_start();
 	/* read the docs!
 		by default, I'm just returning the 5 most recent
 		pocket items.
