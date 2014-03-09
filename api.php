@@ -25,3 +25,17 @@
 			print_r($link->given_url);
 		}
 ?>
+
+<html>
+	<head>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<ul>
+        foreach($pocket_links as $link){
+			print_r("<li>".$link->given_url."</li>");
+		}
+		</ul>
+	</body>
+</html>
