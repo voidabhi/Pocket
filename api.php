@@ -14,8 +14,8 @@
                "X-Accept" => "application/json"),
       json_encode($data)
     );
-	print_r($response->body);
-        //$pocket_links = $response->body->list;
+
+   	$pocket_links = $response->body->list;
 ?>
 
 <?/*<html>
