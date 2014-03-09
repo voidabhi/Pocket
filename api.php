@@ -16,9 +16,10 @@
     );
 
    	$pocket_links = $response->body->list;
+
 ?>
 
-<?/*<html>
+<html>
 	<head>
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -38,5 +39,3 @@
 		</div>
 	</body>
 </html>
-
-*/?>
