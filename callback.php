@@ -17,23 +17,17 @@
       json_encode($data)
     );
 
-	 print_r($response->body);
+	$result  = $response->body;
 
 
-/*	$context  = stream_context_create($options);
-	$result = file_get_contents($url, false, $context);
-	// our $result contains our access token
-
-	$access_token = explode('&',$result);*/
-
-
-	/*if($access_token[0]!=''){
-        $config['access_token']=$access_token[0];
+	if($access_token[0]!=''){
+        $config['access_token']=$result["access_token"];
+        $_SESSION['username'] = $result["username"];
         $_SESSION['config'] = $config;
         header("location:api.php");
 	} else{
 		echo "Something went wrong. :( ";
-	}*/
+	}
 
 
 ?>
