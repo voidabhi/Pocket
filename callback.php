@@ -1,6 +1,5 @@
 <?php
         session_start();
-
 	$request_token = $_GET['request_token'];
 
 	$url = 'https://getpocket.com/v3/oauth/authorize';

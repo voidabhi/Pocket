@@ -1,7 +1,5 @@
 <?php
-	//require_once('config.php');
 	session_start();
-	require_once 'lib/Unirest.php';
 	/* read the docs!
 		by default, I'm just returning the 5 most recent
 		pocket items.
