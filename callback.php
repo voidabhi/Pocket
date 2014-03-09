@@ -20,7 +20,7 @@
 	$result  = $response->body;
 
 
-	if($access_token[0]!=''){
+	if(isset($result["access_token"])){
         $config['access_token']=$result["access_token"];
         $_SESSION['username'] = $result["username"];
         $_SESSION['config'] = $config;
