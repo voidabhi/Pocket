@@ -19,15 +19,17 @@
 
 	$result  = $response->body;
 
+	print_r($result);
 
-	if(isset($result["access_token"])){
+
+	/*if(isset($result["access_token"])){
         $config['access_token']=$result["access_token"];
         $_SESSION['username'] = $result["username"];
         $_SESSION['config'] = $config;
         header("location:api.php");
 	} else{
 		echo "Something went wrong. :( ";
-	}
+	}*/
 
 
 ?>
