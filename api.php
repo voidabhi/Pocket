@@ -29,6 +29,7 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+	<div class="container">
 		<h1>Pocket Links</h1>
 		<ul>
 		<?
@@ -37,5 +38,6 @@
 		}
 		?>
 		</ul>
+		</div>
 	</body>
 </html>
