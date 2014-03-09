@@ -20,5 +20,16 @@
                "X-Accept" => "application/json"),
       json_encode($data)
     );
-        print_r(json_encode($response->body->list));
+        $pocket_links = $response->body->list;
+
 ?>
+
+<html>
+	<head>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<h1>Hello World</h1>
+	</body>
+</html>
