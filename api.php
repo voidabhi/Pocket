@@ -18,6 +18,7 @@
                "X-Accept" => "application/json"),
       json_encode($data)
     );
+
         $pocket_links = $response->body->list;
 ?>
 
