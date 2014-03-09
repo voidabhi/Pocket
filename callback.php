@@ -10,13 +10,13 @@
 		'code' => $request_token
 	);
 
-    $response = Unirest::post($url,
+	   print_r(json_encode($data));
+
+ /*   $response = Unirest::post($url,
             array("Content-Type" => "application/json; charset=UTF-8",
                "X-Accept" => "application/json"),
       json_encode($data)
-    );
-
-    print_r($response->body);
+    );*/
 
 /*	$context  = stream_context_create($options);
 	$result = file_get_contents($url, false, $context);
