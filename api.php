@@ -8,10 +8,11 @@
 		read more here: http://getpocket.com/developer/docs/v3/retrieve
 	 */
         $config = $_SESSION['config'];
+        $access_token = explode("=",$config['access_token']);
 	$url = 'http://getpocket.com/v3/get?count=5';
 	$data = array(
 		'consumer_key' => $config['consumer_key'],
-		'access_token' => $config['access_token']
+		'access_token' => $access_token[1]
 	);
 
     $response = Unirest::post($url,
@@ -19,5 +20,5 @@
                "X-Accept" => "application/json"),
       json_encode($data)
     );
-        print_r(explode("=",$config['access_token'])[1]);
+        print_r($response->body);
 ?>
