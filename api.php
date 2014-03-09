@@ -30,7 +30,10 @@
 	</head>
 	<body>
 	<div class="container">
-		<h1>Pocket Links</h1>
+      <div class="page-header">
+        <h1>Bootstrap grid examples</h1>
+        <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+      </div>
 		<ul>
 		<?
         foreach($pocket_links as $link){
