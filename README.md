@@ -6,7 +6,7 @@ A simple php client for pocket api.
 Usage
 =========
 
-Specify `consumer key`, `redirect url` and `access token` in config file.
+Specify `consumer key`, `redirect url` and `access token` in `config.php` file.
 
 Technologies Used
 =================
