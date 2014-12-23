@@ -6,5 +6,6 @@
         // www.example.com/callback.php
         $config['redirect_uri']='';
 
+	// user access token 
         $config['access_token']='';
 ?>
