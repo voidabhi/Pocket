@@ -13,6 +13,9 @@ Built With
 
 `Pocket REST API` `Unirest PHP Library` `PHP` `Pocket API`
 
+Developed By
+============
+
 License
 =======
 
