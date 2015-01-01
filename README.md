@@ -27,7 +27,7 @@ License
 =======
 
 ```
-Copyright 2014 Abhijeet Mohan - https://github.com/voidabhi/pocket-php
+Copyright 2014 Abhijeet Mohan - https://github.com/voidabhi/pocket
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
