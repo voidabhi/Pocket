@@ -1,4 +1,4 @@
-Pocket-php
+Pocket
 ==========
 
 A simple php client for pocket api.
