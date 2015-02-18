@@ -13,7 +13,7 @@ Specify `consumer key`, `redirect url` and `access token` in `config.php` file.
 Built With
 =================
 
-`Pocket REST API` `Unirest PHP Library` `PHP` `Pocket API`
+`Pocket REST API` `Unirest PHP Library` `PHP` 
 
 Developed By
 ============
