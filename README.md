@@ -10,7 +10,7 @@ Usage
 
 Specify `consumer key`, `redirect url` and `access token` in `config.php` file.
 
-Built With
+Dependencies
 =================
 
 `Pocket REST API` `Unirest PHP Library` `PHP` 
