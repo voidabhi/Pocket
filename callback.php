@@ -5,6 +5,7 @@
 
 	$request_token = $_GET['request_token'];
 
+	// pocket authorization url
 	$url = 'https://getpocket.com/v3/oauth/authorize';
 	$data = array(
 		'consumer_key' => $config['consumer_key'],
