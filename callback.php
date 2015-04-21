@@ -26,7 +26,7 @@
         $_SESSION['username'] = $result->username;
         $_SESSION['config'] = $config;
         
-        // redirecting
+        // redirecting to api page
         header("location:api.php");
 	} else{
 		echo "Something went wrong. :( ";
