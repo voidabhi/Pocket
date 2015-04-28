@@ -8,7 +8,9 @@ A simple php client for pocket api.
 Usage
 =========
 
-Specify `consumer key`, `redirect url` and `access token` in `config.php` file.
+Create an app on pocket
+and specify `consumer key`, `redirect url` and `access token` in `config.php` file.
+
 
 Dependencies
 =================
