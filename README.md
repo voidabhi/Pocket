@@ -1,7 +1,7 @@
 Pocket
 ==========
 
-A simple php client for pocket api.
+A simple php client script for pocket api.
 
 ![Pocket](https://getpocket.com/i/v4/pocket_logo@1x.png)
 
