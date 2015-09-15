@@ -3,7 +3,7 @@ Pocket
 
 A simple php client script for pocket api.
 
-![Pocket](https://getpocket.com/i/v4/pocket_logo@1x.png)
+![https://getpocket.com](https://getpocket.com/i/v4/pocket_logo@1x.png)
 
 Usage
 =========
