@@ -3,7 +3,7 @@
 		// Your consumer key
         $config['consumer_key']='';
 
-        // www.example.com/callback.php
+        // redirect url to your site
         $config['redirect_uri']='';
 
 	// user access token 
