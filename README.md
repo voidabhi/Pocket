@@ -9,7 +9,7 @@ Usage
 =========
 
 Create an app on pocket
-and specify `consumer key`, `redirect url` and `access token` in `config.php` file.
+and specify `consumer key`, `callback url` and `access token` in `config.php` file.
 
 
 Dependencies
