@@ -9,21 +9,25 @@
 		'access_token' => $config['access_token']
 	);
 
-    $response = Unirest::post($url,
+        $response = Unirest::post($url,
             array("Content-Type" => "application/json; charset=UTF-8",
                "X-Accept" => "application/json"),
-      json_encode($data)
-    );
+            json_encode($data)
+        );
 
-	if(isset($response->body->list))
-   	$pocket_links = $response->body->list;
-   	else
-   	$pocket_links = array();
+	if(isset($response->body->list)) {
+   		$pocket_links = $response->body->list;
+	}
+   	else {
+   		$pocket_links = array();
+   	}
 
-   	if(isset($_SESSION['username']))
+   	if(isset($_SESSION['username'])) {
    		$username = $_SESSION['username']."'s";
-   	else
+   	}
+   	else {
    		$username = "your";
+   	}
 
 ?>
 
@@ -39,7 +43,7 @@
       </div>
 		<ul>
 		<?
-        foreach($pocket_links as $link){
+		 foreach($pocket_links as $link) {
 			print_r("<li><a href=".$link->given_url.">".$link->given_title."</a></li>");
 		}
 		?>
