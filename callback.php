@@ -21,6 +21,7 @@
 
 	$result  = $response->body;
 
+	// check if access token is present
 	if(isset($result->access_token)){
         $config['access_token']=$result->access_token;
         $_SESSION['username'] = $result->username;
