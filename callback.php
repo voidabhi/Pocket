@@ -2,7 +2,8 @@
     session_start();
    	require_once "lib/Unirest.php";
    	require_once "config.php";
-
+	
+	// Fetch request token from get parameter
 	$request_token = $_GET['request_token'];
 
 	// pocket authorization url
