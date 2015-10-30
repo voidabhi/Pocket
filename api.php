@@ -2,6 +2,7 @@
 	session_start();
 	require_once("lib/Unirest.php");
 
+	// fetch config from session variable
         $config = $_SESSION['config'];
 	$url = 'http://getpocket.com/v3/get?count=5';
 	$data = array(
