@@ -19,15 +19,14 @@
 
 	if(isset($response->body->list)) {
    		$pocket_links = $response->body->list;
-	}
-   	else {
+	} else {
    		$pocket_links = array();
    	}
 
    	if(isset($_SESSION['username'])) {
    		$username = $_SESSION['username']."'s";
-   	}
-   	else {
+   	
+   	} else {
    		$username = "your";
    	}
 
@@ -35,6 +34,7 @@
 
 <html>
 	<head>
+		<!-- Bootstrap CDN -->
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	</head>
@@ -45,7 +45,7 @@
       </div>
 		<ul>
 		<?
-		 foreach($pocket_links as $link) {
+		foreach($pocket_links as $link) {
 			print_r("<li><a href=".$link->given_url.">".$link->given_title."</a></li>");
 		}
 		?>
