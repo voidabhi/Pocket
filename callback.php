@@ -20,6 +20,7 @@
       json_encode($data)
     );
 
+	// fetch response body
 	$result  = $response->body;
 
 	// check if access token is present
