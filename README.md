@@ -3,20 +3,17 @@ Pocket
 
 A simple php client script for [pocket](https://getpocket.com/i/v4/pocket_logo@1x.png) api.
 
-Usage
-=========
+### Usage
 
 Create an app on pocket
 and specify `consumer key`, `callback url` and `access token` in `config.php` file.
 
 
-Dependencies
-=================
+### Dependencies
 
 `Pocket REST API` `Unirest PHP Library` `PHP` 
 
-Developed By
-============
+### Developed By
 
 `Abhijeet Mohan` - `void.aby@gmail.com`
 
@@ -25,8 +22,7 @@ Developed By
        src="http://data.pkmmte.com/temp/social_google_plus_logo.png" />
 </a>
 
-License
-=======
+### License
 
 ```
 Copyright 2014 Abhijeet Mohan - https://github.com/voidabhi/pocket
