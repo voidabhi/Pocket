@@ -23,6 +23,7 @@
    		$pocket_links = array();
    	}
 
+	// set username from session
    	if(isset($_SESSION['username'])) {
    		$username = $_SESSION['username']."'s";
    	
