@@ -17,6 +17,7 @@
             json_encode($data)
         );
 
+	// fetch pocket links
 	if(isset($response->body->list)) {
    		$pocket_links = $response->body->list;
 	} else {
