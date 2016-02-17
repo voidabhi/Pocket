@@ -1,1 +1,8 @@
 
+{
+"name": "Pocket",
+"description": "A simple php client for pocket api",
+"require": {
+	"mashape/uniresst":"*"
+}
+}
