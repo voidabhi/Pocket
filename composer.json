@@ -2,6 +2,7 @@
 {
   "name": "Pocket",
   "description": "A simple php client for pocket api",
+  "author": "Abhijeet Mohan",
   "require": {
     "mashape/uniresst": "*"
   }
