@@ -21,6 +21,10 @@ and specify `consumer key`, `callback url` and `access token` in `config.php` fi
        src="http://data.pkmmte.com/temp/social_google_plus_logo.png" />
 </a>
 
+### Contributing
+
+- Please use the [issue tracker](https://github.com/voidabhi/Pocket/issues) to report any bugs or file feature requests.
+
 ### License
 
 ```
