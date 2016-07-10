@@ -2,7 +2,7 @@
 
 
 [![Pocket](http://thelectureroom.co.uk/wp-content/uploads/Pocket_Logo_Small.png)](https://getpocket.com)
-A simple php client script for [pocket](https://getpocket.com/i/v4/pocket_logo@1x.png) api.
+A simple php client script for [pocket](https://getpocket.com) api.
 
 ### Usage
 
