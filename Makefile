@@ -1,5 +1,8 @@
 
-build: clean copy tar
+build: clean lint copy tar
+
+lint:
+	phpcs ruleset.xml
 
 clean:
 	rm -rf dist dist.tar.gz
