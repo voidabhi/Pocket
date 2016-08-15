@@ -21,7 +21,7 @@
     $code = $response->body->code;
 
     // printing request code
-    print_r($code);
+    echo($code);
 
     // redirecting to pocket authorization url
     header("Location: https://getpocket.com/auth/authorize?request_token=$code&redirect_uri=".$config['redirect_uri']."?request_token=$code");
