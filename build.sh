@@ -1,3 +1,3 @@
 
 # build script
-make install
+make .
