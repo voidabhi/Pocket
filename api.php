@@ -26,7 +26,6 @@
 	// set username from session
    	if(isset($_SESSION['username'])) {
    		$username = $_SESSION['username']."'s";
-   	
    	} else {
    		$username = "your";
    	}
@@ -46,9 +45,9 @@
       </div>
 		<ul>
 		<?
-		foreach($pocket_links as $link) {
-			print_r("<li><a href=".$link->given_url.">".$link->given_title."</a></li>");
-		}
+			foreach($pocket_links as $link) {
+				print_r("<li><a href=".$link->given_url.">".$link->given_title."</a></li>");
+			}
 		?>
 		</ul>
 		</div>
