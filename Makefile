@@ -2,7 +2,7 @@
 build: clean lint copy tar
 
 lint:
-	vendor/bin/phpcs --standard=./ruleset.xml .
+	vendor/bin/phpcs --standard=./ruleset.xml ./*.php
 
 clean:
 	rm -rf dist dist.tar.gz
