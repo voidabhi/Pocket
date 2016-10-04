@@ -9,6 +9,12 @@ A simple php client script for [pocket](https://getpocket.com) api.
 Create an app on pocket
 and specify `consumer key`, `callback url` and `access token` in `config.php` file.
 
+### Building
+
+```
+  $ ./build.sh
+```
+
 
 ### Dependencies
 
