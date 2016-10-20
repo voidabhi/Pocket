@@ -1,7 +1,7 @@
 ## Pocket
 
 
-[![Pocket](http://thelectureroom.co.uk/wp-content/uploads/Pocket_Logo_Small.png)](https://getpocket.com)
+[![Pocket](https://getpocket.com/i/apple-touch-icon/Pocket_AppIcon_144.png)](https://getpocket.com)
 A simple php client script for [pocket](https://getpocket.com) api.
 
 ### Usage
